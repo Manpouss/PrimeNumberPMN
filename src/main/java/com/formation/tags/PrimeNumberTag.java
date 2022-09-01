@@ -10,25 +10,9 @@ import javax.servlet.jsp.tagext.SimpleTagSupport;
 
 public class PrimeNumberTag extends SimpleTagSupport {
 	public void doTag() throws JspException, IOException{
-		JspWriter out = getJspContext().getOut();
-		ArrayList<Integer> primeList1 = primeList(2,30) ;
-		//ArrayList<String> displayPrimeList1 = 
-				displayPrimeList(primeList1);
-		//boolean test = isStringInteger("s",10);
-		
-		
 		
 	}
 	
-	public void displayPrimeList(ArrayList<Integer> primeList){
-		JspWriter out = getJspContext().getOut();
-		
-		/*ArrayList<String> result = new ArrayList<String>();
-		for (Integer prime : primeList) {
-			result.add(prime+" est un nombre premier<br>");
-        }
-		return result;*/
-	}
 	
 	public ArrayList<Integer> primeList( int numberBegin, int numberEnd) {
 		ArrayList<Integer> primeNumberList =new ArrayList<Integer>();

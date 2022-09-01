@@ -1,0 +1,13 @@
+<taglib>
+	<jsp-version>2.0</jsp-version>	
+    <display-name>Custom EL Functions</display-name>
+    <tlib-version>1.0</tlib-version>
+    
+    <function>
+        <name>primeNameforCallInJSP</name>
+        <function-class>com.formation.tags.PrimeNumberTag2</function-class>
+        <function-signature>
+            boolean isPrime(int)
+        </function-signature>
+    </function> 
+</taglib>
